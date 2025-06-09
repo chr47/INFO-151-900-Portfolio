@@ -3,6 +3,7 @@
   align-items: center; /* vertically center content */
   gap: 2rem; /* space between text and image */
   padding: 20px;
+  max-width: 1000px;
 }
 
 .text-content {
@@ -63,4 +64,33 @@ p {
   color: var(--text-color);
   margin-bottom: 2rem;
   margin-top: 50px;
+}
+
+.resume-header {
+  text-align: center;
+  margin-left: -10px;
+}
+
+.resume-section-starter {
+  color: var(--important-color);
+}
+
+a {
+  color: var(--important-color);
+  text-decoration: underline;
+}
+
+a:hover {
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
+ul {
+  color: var(--text-color);
+}
+
+.resume-container {
+  display: block; /* stack elements top to bottom */
+  max-width: 1000px;
+  margin: 0 auto; /* center horizontally */
 }
