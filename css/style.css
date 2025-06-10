@@ -94,3 +94,40 @@ ul {
   max-width: 1000px;
   margin: 0 auto; /* center horizontally */
 }
+
+.social-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 5rem;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.social-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.social-icon {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.platform-name {
+  font-weight: bold;
+  color: var(--text-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin-bottom: 4px;
+}
+
+.handle {
+  color: var(--important-color);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
