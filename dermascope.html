@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DermaScope - Cameron Romero</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/variables.css" />
+  </head>
+
+  <body>
+    <nav class="top-nav">
+      <div class="nav-left"><a href="index.html">Cameron Romero</a></a></div>
+      <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contacts</a>
+        <a href="associations.html">Associations</a>
+      </div>
+    </nav>
+    <h1 class="section-header">DermaScope</h1>
+    <p class="centered-p">
+      AI Powered Skin Lesion Detection App <br />
+      Made for 2025 Philly Codefest <br />
+      Model trained using Python, Pytorch, and CUDA <br />
+      Website built with JavaScript, FastAPI, OpenAI
+    </p>
+    <a
+      href="https://github.com/Ryan-Brosius/derma-scope"
+      target="_blank"
+      class="icon-link"
+    >
+      <img src="assets/images/icons/githublogo.png" alt="" class="icon" />
+      <span><strong>GitHub</strong></span>
+    </a>
+    <div class="project-container">
+      <p class="centered-p">
+        This project was our team's entry for the Philly Codefest 2025's
+        Advanced category, and we also competed in the "For Social Good"
+        category. We were only given 24 hours in total to work on and finish our
+        project. Although we did not win, I am very proud of our efforts and our
+        product.
+        <br />
+        <br />
+        Our Resnet-18 model was trained with PyTorch and CUDA using 10,000
+        images over 50 epochs to classify 7 different types of skin lesions.
+        Using gradient descent and cosine annealing, we achieved an accuracy of
+        around 88%. After training our model, we built a website using FastAPI
+        to receive user images, and produce model images in real-time. Using
+        OpenAI in combination with our model, we were also able to produce
+        accurate diagnoses for patients and doctors. Above is the link to the
+        GitHub page which also contains instructions for setting up and running
+        the application, although it shouldn't work as it doesn't have a key to
+        use OpenAI anymore. Below are images of our team, the pitch for our
+        product, pictures from our finished website, and images for our model.
+      </p>
+
+      <h2 class="project-section-header">OUR TEAM</h2>
+      <img src="assets/images/projects/dermascope/codefestphoto.jpeg" alt="" />
+      <p>
+        Forgive my appearance, I was on about 2 hours of sleep and no shower :(
+      </p>
+      <h2 class="project-section-header">PITCH</h2>
+      <p class="centered-p">
+        Millions around the world lack access to dermatologists, leading to late
+        diagnoses of serious skin conditions. Our AI-powered skin lesion
+        detection app bridges this gap by providing instant, affordable, and
+        accessible skin analysis. Simply upload a picture, and our technology
+        predicts potential concerns—empowering early detection, especially in
+        underserved communities. With this tool, we’re bringing life-saving
+        dermatological insights to those who need them most.
+        <br />
+        Our model is trained on the HAM10000 dataset, which comprises data on
+        seven different types of skin lesions, curated by medical professionals.
+        We fine-tuned a PyTorch implementation of ResNet18 over 50 epochs,
+        incorporating noise filtering during each training pass to overcome the
+        challenges posed by the small dataset. These efforts have enabled us to
+        achieve an accuracy rate of approximately 90% on our test evaluation.
+      </p>
+      <h2 class="project-section-header">WEBSITE PICTURES</h2>
+      <div class="derma-row">
+        <div class="derma-card">
+          <img src="assets/images/projects/dermascope/home.png" alt="" />
+          <p>Website Home Page</p>
+        </div>
+        <div class="derma-card">
+          <img src="assets/images/projects/dermascope/form.png" alt="" />
+          <p>Patient Form</p>
+        </div>
+        <div class="derma-card">
+          <img src="assets/images/projects/dermascope/doctordiag.png" alt="" />
+          <p>Doctor Diagnosis View</p>
+        </div>
+        <div class="derma-card">
+          <img src="assets/images/projects/dermascope/patientdiag.png" alt="" />
+          <p>Patient Diagnosis View</p>
+        </div>
+        <div class="derma-card">
+          <img src="assets/images/projects/dermascope/modelview.png" alt="" />
+          <p>Model View for Diagnosis</p>
+        </div>
+      </div>
+      <h2 class="project-section-header">MODEL IMAGES</h2>
+      <div class="derma-row">
+        <div class="derma-card">
+          <img
+            src="assets/images/projects/dermascope/reportpipeline.webp"
+            alt=""
+          />
+          <p>Report Pipeline</p>
+        </div>
+        <div class="derma-card">
+          <img
+            src="assets/images/projects/dermascope/modelarchitecture.webp"
+            alt=""
+          />
+          <p>Model Architecture</p>
+        </div>
+        <div class="derma-card">
+          <img
+            src="assets/images/projects/dermascope/trainingloss.png"
+            alt=""
+          />
+          <p>Training Loss</p>
+        </div>
+        <div class="derma-card">
+          <img
+            src="assets/images/projects/dermascope/testaccuracy.png"
+            alt=""
+          />
+          <p>Test Accuracy</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
