@@ -466,6 +466,8 @@ ul {
     width: 100%;
     max-width: 400px;
     border-radius: 8px;
+    min-height: 100px;
+    object-fit: cover;
   }
 
   .derma-card p {
@@ -568,4 +570,22 @@ ul {
     left: 1rem;
     z-index: 1200;
   }
+}
+
+.swiper {
+  width: 560px;
+  height: 560px;
+  border-radius: 8px;
+}
+
+.swiper-slide img {
+  width: 550px;
+  height: 550px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--important-color);
+  width: 44px;
+  height: 44px;
 }
