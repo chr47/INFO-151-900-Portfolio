@@ -5,10 +5,13 @@
     <title>Resume - Cameron Romero</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/variables.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <nav class="top-nav">
-      <div class="nav-left"><a href="index.html">Cameron Romero</a></a></div>
+      <div class="nav-left">
+        <a href="index.html">Cameron Romero</a>
+      </div>
       <div class="nav-right">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -17,6 +20,25 @@
         <a href="contact.html">Contacts</a>
         <a href="associations.html">Associations</a>
       </div>
+    </nav>
+
+    <nav class="navbar">
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="right-text">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="associations.html">Associations</a></li>
+      </ul>
     </nav>
     <h1 class="section-header">RESUME</h1>
     <div class="resume-container">
@@ -113,7 +135,9 @@
         <h2 class="resume-section-starter">Projects</h2>
         <p>
           <strong
-            ><a href="https://github.com/Ryan-Brosius/derma-scope"
+            ><a
+              href="https://github.com/Ryan-Brosius/derma-scope"
+              target="_blank"
               >DermaScope</a
             ></strong
           >
@@ -132,6 +156,7 @@
           <strong
             ><a
               href="https://github.com/Ryan-Brosius/Secret-Santa-2023-Game-Jam"
+              target="_blank"
               >Nebula Nonsense</a
             ></strong
           >
@@ -143,5 +168,6 @@
         </p>
       </section>
     </div>
+    <script src="js/burger-menu.js"></script>
   </body>
 </html>

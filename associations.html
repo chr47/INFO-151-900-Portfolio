@@ -4,11 +4,14 @@
     <title>Associations - Cameron Romero</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/variables.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
     <nav class="top-nav">
-      <div class="nav-left"><a href="index.html">Cameron Romero</a></a></div>
+      <div class="nav-left">
+        <a href="index.html">Cameron Romero</a>
+      </div>
       <div class="nav-right">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -17,6 +20,25 @@
         <a href="contact.html">Contacts</a>
         <a href="associations.html">Associations</a>
       </div>
+    </nav>
+
+    <nav class="navbar">
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="right-text">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="associations.html">Associations</a></li>
+      </ul>
     </nav>
     <h1 class="section-header">ASSOCIATIONS</h1>
     <div class="associations-grid">
@@ -31,10 +53,13 @@
             innovate in a supportive environment.
           </p>
         </div>
-          <button class="button-link" onclick="window.open('https://drexel.edu/cci/partnerships/corporate/philly-codefest/')">
-            Visit Site
-          </button>
-        </div>
+        <button
+          class="button-link"
+          onclick="window.open('https://drexel.edu/cci/partnerships/corporate/philly-codefest/')"
+        >
+          Visit Site
+        </button>
+      </div>
       <div class="association-card">
         <img src="assets/images/associations/hack4impactlogo.jpeg" alt="" />
         <div>
@@ -47,10 +72,13 @@
             skills while contributing to social good.
           </p>
         </div>
-          <button class="button-link" onclick="window.open('https://h4i-drexel-web.vercel.app/')">
-            Visit Site
-          </button>
-        </div>
+        <button
+          class="button-link"
+          onclick="window.open('https://h4i-drexel-web.vercel.app/')"
+        >
+          Visit Site
+        </button>
+      </div>
       <div class="association-card">
         <img src="assets/images/associations/dragonclimberslogo.jpeg" alt="" />
         <div>
@@ -62,10 +90,13 @@
             welcoming climbers of all experience levels.
           </p>
         </div>
-          <button class="button-link" onclick="window.open('https://dragonlink.drexel.edu/organization/dragon-climbers')">
-            Visit Site
-          </button>
-        </div>
+        <button
+          class="button-link"
+          onclick="window.open('https://dragonlink.drexel.edu/organization/dragon-climbers')"
+        >
+          Visit Site
+        </button>
+      </div>
       <div class="association-card">
         <img src="assets/images/associations/acmlogo.jpeg" alt="" />
         <div>
@@ -77,10 +108,14 @@
             updated on the latest in computer science and technology.
           </p>
         </div>
-          <button class="button-link" onclick="window.open('https://www.acm.org/')">
-            Visit Site
-          </button>
-        </div>
+        <button
+          class="button-link"
+          onclick="window.open('https://www.acm.org/')"
+        >
+          Visit Site
+        </button>
+      </div>
     </div>
+    <script src="js/burger-menu.js"></script>
   </body>
 </html>

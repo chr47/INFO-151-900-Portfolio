@@ -4,10 +4,13 @@
     <title>Home - Cameron Romero</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/variables.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
     <nav class="top-nav">
-      <div class="nav-left"><a href="index.html">Cameron Romero</a></a></div>
+      <div class="nav-left">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
       <div class="nav-right">
         <a href="index.html">Home</a>
         <a href="about.html">About Me</a>
@@ -17,9 +20,29 @@
         <a href="associations.html">Associations</a>
       </div>
     </nav>
+
+    <nav class="navbar">
+      <div class="burger" id="burger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="right-text">
+        <a href="index.html">Cameron Huang Romero</a>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contacts</a></li>
+        <li><a href="associations.html">Associations</a></li>
+      </ul>
+    </nav>
+
     <h1 class="section-header">HOME</h1>
     <div class="container">
-      <div class="text-content">
+      <div id="text-content">
         <h1>
           Hello, my name is <br /><span class="highlight"
             >Cameron Huang Romero</span
@@ -54,5 +77,6 @@
         <img src="assets/images/personal_picture.jpg" alt="personal picture" />
       </div>
     </div>
+    <script src="js/burger-menu.js"></script>
   </body>
 </html>
